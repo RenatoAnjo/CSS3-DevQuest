@@ -1,0 +1,15 @@
+h2 {
+    background-color: purple;
+    color: antiquewhite;
+}
+
+p {
+    color: blue;
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: purple;
+    font-size: 18px;
+}
