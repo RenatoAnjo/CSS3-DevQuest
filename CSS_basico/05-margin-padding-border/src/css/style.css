@@ -1,12 +1,21 @@
 /*
     margin espacamento entre dois elementos
     padding espacamento entre conteudo e as bordas "respiro"
-    
+
 */
 
 p {
     margin: 30px 15px 10px;
     padding: 20px;
-    background-color: purple;
-    color: aliceblue;
+    background-color: rgba(128, 0, 128,0.8);
+    color: #f0fff8;
+    border: solid 8px rgb(128, 0, 128);
+}
+
+h1 {
+    border-style: groove;
+    border-width: 10px;
+    border-color: rgb(135, 119, 95);
+    padding: 20px;
+    margin: 0px 15px;
 }
