@@ -1,4 +1,12 @@
+/*
+    margin espacamento entre dois elementos
+    padding espacamento entre conteudo e as bordas "respiro"
+    
+*/
+
 p {
     margin: 30px 15px 10px;
+    padding: 20px;
+    background-color: purple;
+    color: aliceblue;
 }
-
