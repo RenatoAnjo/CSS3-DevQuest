@@ -1,0 +1,11 @@
+* {
+    margin: o;
+}
+
+p {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(128, 0, 128, 0.6);
+    border: solid 2px #000;
+    color: #fff;
+}
