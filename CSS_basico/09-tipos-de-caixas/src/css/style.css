@@ -1,0 +1,23 @@
+h1 {
+    display: inline;
+    background-color: rgb(193, 172, 146);
+}
+
+.em-linha {
+    background-color: rgb(184, 184, 200);
+    display: inline;
+}
+
+h2 {
+    width: 500px;
+    height: 200px;
+    background-color: hsl(240, 57%, 32%);
+    color: #fff;
+}
+
+p {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(152, 54, 54);
+    color: #fff;
+}
