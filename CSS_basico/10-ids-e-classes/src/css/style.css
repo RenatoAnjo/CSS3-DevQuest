@@ -1,0 +1,9 @@
+.descricao-produto {
+    background-color: rgb(255, 165, 0);
+    color: #000;
+    font-size: 20px;
+}
+
+.promocao {
+    border: solid 7px rgb(0, 255, 0);
+}
