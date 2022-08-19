@@ -1,0 +1,36 @@
+/* 1 em = 16 pixels */
+
+html {
+    background-color: #ccc;
+}
+
+body {
+    background-color: blueviolet;
+    width: 80%;
+    font-size: 3em;
+}
+
+/* em sempre olhar para o elemento anterior "PAI" body */
+.pai {
+    background-color: #ea80fc;
+    width: 60%;
+    font-size: 1.5em;
+}
+
+.filha {
+    background-color: #1de9b6;
+    width: 40%;
+    font-size: 0.5em;
+}
+
+.pai02 {
+    background-color: #736376;
+    width: 60%;
+    font-size: 2em;
+}
+
+.filha02 {
+    background-color: #87a8a0;
+    width: 40%;
+    font-size: 0.5em;
+}
