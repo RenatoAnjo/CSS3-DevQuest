@@ -1,0 +1,29 @@
+html {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100%;
+}
+
+.pixel01 {
+    background-color: aqua;
+    width: 1000px;
+    height: 100px;
+}
+
+.pixel02 {
+    background-color: blue;
+    width: 100%;
+    height: 100px;
+}
+
+.pixel03 {
+    background-color: brown;
+    width: 62.5em;
+    height: 6.25em;
+}
+
+.pixel04 {
+    background-color: rgb(231, 131, 9);
+    width: 62.5rem;
+    height: 6.25rem;
+}
