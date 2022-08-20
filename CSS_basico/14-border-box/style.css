@@ -1,0 +1,31 @@
+div {
+    width: 600px;
+    height: 200px;
+    padding: 20px;
+    border: 20px solid green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    background-color: blanchedalmond;
+    color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.com-border-box {
+    background-color: blueviolet;
+    font-size: 2em;
+    box-sizing: border-box;
+}
+
+.sem-border-box {
+    background-color: brown;
+    font-size: 2em;
+
+}
