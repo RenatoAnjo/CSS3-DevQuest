@@ -13,7 +13,9 @@ body {
 h1 {
     font-size: 3em;
     padding: 0.8em 0;
-    border: 0.08em solid #143d59;
+    border-width: 0.08em 0.08em 0 ;
+    border-style: solid;
+    border-color:  #143d59;
     margin: auto;
     width: 10em;
     height: 1em;
@@ -67,7 +69,9 @@ h2 {
     justify-content: center;
     align-items: center;
     margin: auto;
-    border: 0.16em solid #143d59;
     width: 17.65em;
     border-radius: 0 0 0.3em 0.3em;
+    border-width: 0 0.16em 0.16em;
+    border-style: solid;
+    border-color:  #143d59;
 }
