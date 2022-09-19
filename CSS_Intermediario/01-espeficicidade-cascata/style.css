@@ -1,0 +1,27 @@
+/* ----------- Efeito Cascata ---------------- */
+
+.container-cascata {
+    background-color: aqua;
+}
+
+.container-cascata {
+    background-color: orange;
+}
+
+/*-------------- Especificidade ------------ */
+/* não importa ordem, o que tiver o valor mais de especifidade será aplicado */
+
+/* 0,0,1 */
+p {
+    background-color: lightblue !important; /* em ultimo caso mas não é uma boa prática, important deixa com peso maior */
+}
+
+/* 0,1,1 */
+.container-especificidade p {
+    background-color: chartreuse;
+}
+
+/* 1,0,0 o id é mais especifico, posso ter somente um id por página */
+#meu-paragrafo {
+    background-color: violet;
+}
