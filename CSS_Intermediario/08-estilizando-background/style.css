@@ -1,0 +1,37 @@
+p {
+    color: orange;
+    font-size: 24px;
+    font-weight: bold
+}
+
+.bg {
+    background-color: lightgreen;
+    background-image: url(./src/imagens/cat.png);
+}
+
+.bg-image {
+    width: 512px;
+    height: 340px;
+}
+
+.bg-repeat {
+    background-repeat: no-repeat;
+    height: 540px;
+}
+
+.bg-size-cover {
+    background-size: cover; /* ela vai cumnprir todo nosso elemento com essa propriedade toda a area verde mas obs a resolucao imagem para seta em height e width */
+    height: 540px;
+}
+
+.bg-fixed {
+    background-attachment: fixed; /* scroll e da uma efeito de paralaxe vai acompanhando o scroll*/
+    height: 540px;
+}
+
+.bg-position {
+    background-position: bottom right; /* posicionamento vertical e horizontal , pode usar px, porcetagem , bottom, right palavras chaves é mais ideal */
+    background-repeat: no-repeat;
+    height: 540px;
+ /* background: black url(./src/imagens/cat.png) no-repeat right top; essa é a versão encurtada ao inves de digita todos os comandos separado, pode usar o comando nessa ORDEM */
+}
