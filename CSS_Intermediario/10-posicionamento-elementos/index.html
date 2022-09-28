@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Position Static, Relative e Absolute </title>
+</head>
+<body>
+    <h1>Posicionamento de Elementos</h1>
+
+    <!-- esse elemento vai ficar TRAVADO NA TELA-->
+    <div class="elemento elemento-estatico">
+        static
+    </div>
+
+    <!-- ocupa a largura toda e posso movimentar, left move para direita é o comportamento estamos dando um espaçamento  -->
+    <div class="elemento elemento-relativo">
+        relative
+    </div>
+
+    <!-- estamos destacando esse elemento na camada original, estou criando uma camada nova, se estiver elemento abaixo eles vao subir e sumir .E se colocar top 0 ele vai para o top no navegador -->
+    <div class="elemento elemento-absoluto">
+        absolute
+    </div>s
+
+    <!--   -->
+    <div class="elemento elemento-estatico">
+        outro elemento estatico
+    </div>
+
+    <div class="elemento elemento-relativo-com-filho">
+        <div class="elemento elemento-absoluto-com-pai">
+            absoluto com pai
+        </div>
+    </div>
+</body>
+</html>

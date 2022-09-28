@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+}
+
+.elemento {
+    color: #fff;
+    font-size: 32px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.elemento-estatico {
+    position: static;
+    background-color: red;
+}
+
+.elemento-relativo {
+    position: relative;
+    left: 100px;
+    background-color: orange;
+}
+
+.elemento-absoluto{
+    position: absolute;
+    background-color: darkcyan;
+    left: 500px;
+}
+
+.elemento-relativo-com-filho {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: beige;
+}
+
+/* agora essa div esta travada, dentro do pai*/
+.elemento-absoluto-com-pai {
+    position: absolute;
+    top: 0;
+    width: 200px;
+    height: 200px;
+    background-color: darkcyan;
+}
