@@ -24,7 +24,7 @@ main {
     background-color: white;
     padding: 30px;
     min-width: 320px;
-    max-width: 1024px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -40,3 +40,36 @@ main p {
     width: 100%;
 }
 
+/*dispositivos extra pequenos (celulares em posição porta retrato, menores do que 576px)*/
+@media (max-width: 576px) {
+    .cabecalho {
+        background-color: rgb(53, 53, 53);
+        text-align: center;
+    }
+    .cabecalho nav {
+        float: none;
+    }
+    .cabecalho nav li {
+        display: block;
+        color: #BCB8B1;
+        font-weight: 200;
+    }
+    header h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #BCB8B1;
+    }
+    main section h1 {
+        font-size: 32px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 500;
+        color: #DD1C1A;
+    }
+    main section p {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        color: #F4F3EE;
+    }
+    main {
+        background-color: #E0AFA0;
+    }
+}   
