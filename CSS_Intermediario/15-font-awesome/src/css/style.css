@@ -1,0 +1,37 @@
+.fa-instagram {
+    color: red;
+    font-size: 42px;
+    display: block;
+    padding: 10px;
+}
+
+.fa-instagram:hover {
+    color: blue;
+}
+
+
+.fa-facebook-square {
+    color: orange;
+    font-size: 42px;
+    display: block;
+    padding: 10px;
+}
+
+.fa-facebook-square:hover {
+    color: rebeccapurple;
+}
+
+.fa-pen {
+    color: green;
+    font-size: 36px;
+    display: block;
+    padding: 10px;
+}
+
+.fa-pen:hover {
+    color: aqua;
+}
+
+.fa-pencil-ruler{
+    color: black;
+}
